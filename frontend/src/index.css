@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  background: linear-gradient(to right top, #54e3ff, #37d0f0);
+  min-height: 100vh;
+}
+/* Navbar */
+
+nav {
+  max-height: 10vh;
+  position: absolute;
+  top: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-container {
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links {
+  position: relative;
+  display: flex;
+  top: 1.4em;
+  width: 35em;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/*Marcacoes - HOME*/
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.form-container,
+.home-container {
+  background: white;
+  min-height: 80vh;
+  width: 50%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  backdrop-filter: blur(2rem);
+  padding: 0.5em;
+}
+
+.marcacao {
+  background: white;
+  margin: 1em;
+  border-radius: 2rem;
+  display: grid;
+  grid-template-columns: 10em 10em 10em 10em;
+  grid-template-rows: 10em 10em;
+  gap: 3px 0px;
+}
+
+.marcacao p {
+  width: 20%;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* FORM - MARCACOES */
+
+Form .form-element {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5em;
+}
+.form-control {
+  border-radius: 2em;
+}
+textarea {
+  resize: none;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  height: 3em;
+  width: 12em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5em;
+  background: white;
+  border-radius: 20px;
+  border-color: black;
+  border-width: 2px;
+}
+
+input {
+  border-radius: 2em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ced4da;
+}
+select {
+  border-radius: 2em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ced4da;
+}
